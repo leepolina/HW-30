@@ -1,0 +1,34 @@
+.cubic{
+    width:30px;
+    height:30px;
+    background-color:#4caf50;
+    position:absolute;
+    top:0;
+    left:0; 
+    animation:minmin 3s ease-in-out infinite
+}
+@keyframes minmin {
+    0%{
+        transform:translate(0px, 0px);
+        border-radius:0;
+        background-color:#9c27b0;
+    }
+
+    33%{
+        transform:translate(230px, 0);
+        border-radius:0;
+        background-color:aqua
+    }
+
+    66%{
+        transform:translate(230px, 230px);
+        border-radius:0;
+        background-color:blue
+    }
+
+    100%{
+        transform:translate(0, 230px);
+        border-radius:0;
+        background-color:#03a9f4
+    }
+}
